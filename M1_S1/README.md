@@ -1,5 +1,5 @@
 # Session One
-## Commands learned
+## Commands Learned
 ```
   uname -a
   which uname
@@ -10,7 +10,7 @@
   man getuid
 ```
 
-## Commands explanation 
+## Commands Explanation 
   ### Command is an application with a location and it has an inputs and outputs
    * use `ls` for displaying contents of directory
    * use `cd` for changing directory or to move from current directory to another
@@ -22,7 +22,7 @@
    * use `rm` to remove a file
 
 
-## How to create a new command in linux
+## How to Create a New Command in Linux
   * first make a cpp application and run it using this command:
 ```
 $ g++ main.cpp -o userid
