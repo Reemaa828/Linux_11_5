@@ -17,7 +17,7 @@
    * use `which` for telling or showing you the path of file
    * use `ls | grep "file"` for finding a specific file
    * use `man` to show you the documents of glibc or use it as a manual/reference for glibc
-   * use 'sudo' to give permission
+   * use `sudo` to give permission
    * use `cp` to copy something to another
    * use `rm` to remove a file
 
