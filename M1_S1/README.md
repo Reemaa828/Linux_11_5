@@ -1,5 +1,5 @@
-#Session One
-##commands learned
+# Session One
+## commands learned
 ```
 $ uname -a
 $ which uname
