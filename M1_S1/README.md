@@ -21,6 +21,10 @@
    * use `cp` to copy something to another
    * use `rm` to remove a file
    * use `id --user` its the same as getuid() syscall
+   * use `cat /proc/version` show the version of os
+   * use `cat /proc/cpuinfo | grep "model name"` show cores
+   * use `cat /proc/$$/status | head -n6` without head -n6 it shows all , with it; it shows only first 6; $$ means current process
+   * use `lscpu` to get architecture info or use `uname -m`
 
 
 ## How to Create a New Command in Linux 👾
