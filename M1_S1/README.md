@@ -25,6 +25,12 @@
    * use `cat /proc/cpuinfo | grep "model name"` show cores
    * use `cat /proc/$$/status | head -n6` without head -n6 it shows all , with it; it shows only first 6; $$ means current process
    * use `lscpu` to get architecture info or use `uname -m`
+   * use `grep MemTotal /proc/meminfo` ram size
+   * use `grep VmallocTotal /proc/memibfo` virtual memory size
+   * use `ip link` for ip address  
+   * use `ls -al /sys/devices` an overview of the devices on your Linux system
+   * use `strace ls` tell us the behind scene syscalls
+   * use `strace -c` overview of syscalls 
 
 
 ## How to Create a New Command in Linux 👾
