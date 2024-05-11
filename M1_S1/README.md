@@ -21,7 +21,7 @@ $ g++ main.cpp -o userid
 ```
 $ sudo cp userid /usr/bin/
 ```
-    and voilà you have created a command!
+  and voilà you have created a command!
   
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/59ffa8a3-3fa0-4a8b-84b5-ed785d30c9d8)
 
