@@ -13,11 +13,11 @@ $ man getuid
    
 
 ## How to create a new command in linux
-  *firstly make a cpp application and run it using this command:
+  * firstly make a cpp application and run it using this command:
 ```
 $ g++ main.cpp -o userid
 ```
-  *then to run this code/command we should change location to a system variable type path 
+  * then to run this code/command we should change location to a system variable type path 
 ```
 $ sudo cp userid /usr/bin/
 ```
