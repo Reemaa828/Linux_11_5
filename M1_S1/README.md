@@ -20,6 +20,7 @@
    * use `sudo` to give permission
    * use `cp` to copy something to another
    * use `rm` to remove a file
+   * use `id --user` its the same as getuid() syscall
 
 
 ## How to Create a New Command in Linux 👾
