@@ -1,6 +1,6 @@
 # Session One 👆
 ## Commands Learned 👾
-```
+```shell
   uname -a
   which uname
   cd
