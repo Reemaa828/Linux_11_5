@@ -31,7 +31,8 @@ ___
    * use `ip link` for ip address  
    * use `ls -al /sys/devices` an overview of the devices on your Linux system
    * use `strace ls` tell us the behind scene syscalls
-   * use `strace -c` overview of syscalls 
+   * use `strace -c` overview of syscalls
+___
 
 
 ## How to Create a New Command in Linux 👾
@@ -46,6 +47,7 @@ $ sudo cp userid /usr/bin/
   and voilà you have created a command!
   
   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/59ffa8a3-3fa0-4a8b-84b5-ed785d30c9d8)
+  ___
 
 
 
