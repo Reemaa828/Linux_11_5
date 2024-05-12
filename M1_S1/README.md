@@ -1,4 +1,4 @@
-# Session One 👆
+# Session One 1️⃣
 ## Commands Learned 👾
 ```shell
   uname -a
