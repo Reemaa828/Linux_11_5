@@ -2,7 +2,7 @@
 ## System Call Introduction
   **what is a system call?**
 
-  System call provides a **service** of the linux kernel, in another definition its a software interrupt. its also the interface provided for us to use a service made available by os.
+  System call provides a **service** of the linux kernel, in another definition its a **software interrupt**. its also the **interface** provided for us to use a service made available by os.
   ___
    **how does it work?**
 
