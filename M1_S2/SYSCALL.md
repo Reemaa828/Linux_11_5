@@ -33,11 +33,11 @@ graph TD;
 
 
 >[!note]
->glibc is a wrapper library that has wrapper functions, one function of the glibc has many syscalls and if i want to do the direct way to the kernel i have to use all these syscalls. examples of using a glibc and all the syscalls that happen in one of glibc functions
+>* glibc is a wrapper library that has wrapper functions, one function of the glibc has many syscalls and if i want to do the direct way to the kernel i have to use all these syscalls. examples of using a glibc and all the syscalls that happen in one of glibc functions
 >![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f9592e0c-c233-400c-882a-6ee400ecdef2)
->glibc can be customized to another c standard library like musl
->no file interactions the syscall interacts directly with the kernel
->we can do **monitoring** by using `strace` command and overview using `strace -c` and see the failure of any syscalls
+>* glibc can be customized to another c standard library like musl
+>* no file interactions the syscall interacts directly with the kernel
+>* we can do **monitoring** by using `strace` command and overview using `strace -c` and see the failure of any syscalls
 
 
 
