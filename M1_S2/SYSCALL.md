@@ -8,6 +8,7 @@
 
   When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel first
 this service is the system call.
+
  **Steps**
 - invoke a function or a service from the kernel by using glibc 
 - save context of userspace 
