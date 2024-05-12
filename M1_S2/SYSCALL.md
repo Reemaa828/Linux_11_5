@@ -21,6 +21,7 @@ this service is the system call.
   | failure | cause of failure or any value except 0 |
   | success | content or 0 or null |
 - restore context of userspace
+
 **Example of System Call**
 ```mermaid
 graph TD;
