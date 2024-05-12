@@ -10,7 +10,7 @@
 this service is the system call.
     **Steps**
     
-    -  invoke a function or a service from the kernel by using glibc 
+    1.  invoke a function or a service from the kernel by using glibc 
     -  save context of userspace 
     -  context switch from userspace to kernelspace
     -  search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
