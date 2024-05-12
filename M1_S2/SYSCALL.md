@@ -15,7 +15,10 @@ this service is the system call.
 - context switch from userspace to kernelspace
 - search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
 - do operation
-- return result 
+- return result
+  | status | return value |
+  | --------- | -------- |
+   | failure | cause of failure or any value except 0 |
 - restore context of userspace 
 
     ___
