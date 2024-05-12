@@ -48,7 +48,7 @@ graph LR;
 >![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f9592e0c-c233-400c-882a-6ee400ecdef2)
 >* glibc can be customized to another c standard library like musl
 >* no file interactions the syscall interacts directly with the kernel
->* we can do **monitoring** by using `strace` command and overview using `strace -c` and see the failure of any syscalls
+>* we can do **monitoring** by using `strace` command and overview using `strace -c` where we can see the failure of any syscalls
 
 
 
