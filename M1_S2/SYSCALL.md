@@ -10,12 +10,12 @@
 this service is the system call.
     **Steps**
     
-    1.  invoke a function or a service from the kernel by using glibc 
-    -  save context of userspace 
-    -  context switch from userspace to kernelspace
-    -  search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
-    -  do operation
-    -  return result 
+          -  invoke a function or a service from the kernel by using glibc 
+          -  save context of userspace 
+          -  context switch from userspace to kernelspace
+          -  search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
+          -  do operation
+          -  return result 
             | status | return value |
             | --------- | -------- |
             | failure | cause of failure or any value except 0 |
