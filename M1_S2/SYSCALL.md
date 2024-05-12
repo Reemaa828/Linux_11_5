@@ -25,7 +25,7 @@ this service is the system call.
 ```mermaid
 graph TD;
     A[userland] --> |function call that has same name as syscall| B(glibc)
-    B --> |syscall interfaces| C(syscall)
+    B --> |syscall interface| C(syscall)
     C --> |syscall implementation function| D[Kernel Land]
 
 ```
