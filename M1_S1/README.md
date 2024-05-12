@@ -1,7 +1,7 @@
 # Session One 👆
 ## Commands Learned 👾
 ```shell
-  uname -a
+  $ uname -a
   which uname
   cd
   ls
