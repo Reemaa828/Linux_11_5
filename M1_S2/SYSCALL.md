@@ -22,6 +22,7 @@ graph TD;
 - save context of userspace 
 - context switch from userspace to kernelspace
 - search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
+- call function in the kernel
 - do operation
 - return result
   | status | return value |
