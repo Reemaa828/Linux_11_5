@@ -1,15 +1,15 @@
 # Session two 2️⃣
 ## System Call Introduction
-  **what is a system call?**
+  ### **what is a system call?**💡
 
   System call provides the **services** of the linux kernel, in another definition its a **software interrupt**. its also the **interface** provided for us to use a service made available by os.
 
-   **how does it work?**
+  ### **how does it work?**💡
 
   When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel first
 this service is the system call.
 
- **Steps**
+ ### **Steps**
 - invoke a function or a service from the kernel by using glibc 
 - save context of userspace 
 - context switch from userspace to kernelspace
@@ -22,7 +22,7 @@ this service is the system call.
   | success | content or 0 or null |
 - restore context of userspace
 
-**Example of System Call**
+### **Example of System Call**
 ```mermaid
 graph TD;
     A[userland] --> |function call that has same name as syscall| B(glibc)
@@ -30,7 +30,7 @@ graph TD;
     C --> |syscall implementation function| D[Kernel Land]
 
 ```
-conclusion🎆
+### conclusion🎆
  ```mermaid
 graph LR;
     A[user mode] <--> |syscall| B(kernel mode)
