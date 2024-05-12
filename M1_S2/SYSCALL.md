@@ -9,13 +9,14 @@
   When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel first
 this service is the system call.
     **Steps**
-          - invoke a function or a service from the kernel by using glibc 
-          - save context of userspace 
-          - context switch from userspace to kernelspace
-          - search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
-          - do operation
-          - return result 
-          - restore context of userspace 
+- invoke a function or a service from the kernel by using glibc 
+- save context of userspace 
+- context switch from userspace to kernelspace
+- search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
+- do operation
+- return result 
+- restore context of userspace 
+
     ___
 **Example of System Call**
 ```mermaid
