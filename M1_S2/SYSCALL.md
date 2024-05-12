@@ -32,8 +32,8 @@ graph TD;
 ```
 conclusion🎆
  ```mermaid
-graph TD;
-    A[user mode] <--> |syscall| (kernel mode)
+graph LR;
+    A[user mode] <--> |syscall| B(kernel mode)
 ```
 
 
