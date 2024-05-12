@@ -6,8 +6,7 @@
 
   ### how does it work?💡
 
-  When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel first
-this service is the system call.
+  When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel by syscall first. this service is the system call.
 
 ### Example of System Call
 ```mermaid
