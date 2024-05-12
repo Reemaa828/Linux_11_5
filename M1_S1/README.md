@@ -15,8 +15,8 @@ ___
   ### Command is an application with a location and it has inputs and outputs
    * use `ls` for displaying contents of directory
      * ys
-      * b
-      -bbb
+       * b
+       - bbb
    * use `cd` for changing directory or to move from current directory to another
    * use `which` for telling or showing you the path of file
    * use `ls | grep "file"` for finding a specific file
