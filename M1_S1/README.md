@@ -9,6 +9,7 @@
   echo $PATH
   man getuid
 ```
+___
 
 ## Commands Explanation 👾
   ### Command is an application with a location and it has inputs and outputs
