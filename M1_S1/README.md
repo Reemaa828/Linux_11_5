@@ -11,7 +11,7 @@
 ```
 
 ## Commands Explanation 👾
-  ### Command is an application with a location and it has an inputs and outputs
+  ### Command is an application with a location and it has inputs and outputs
    * use `ls` for displaying contents of directory
    * use `cd` for changing directory or to move from current directory to another
    * use `which` for telling or showing you the path of file
