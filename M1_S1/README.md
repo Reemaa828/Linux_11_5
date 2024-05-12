@@ -35,7 +35,7 @@ ___
 ___
 
 <details>
-<summar>## How to Create a New Command in Linux 👾</summar>
+<summary>## How to Create a New Command in Linux 👾</summary>
   * first make a cpp application and run it using this command:
 ```
 $ g++ main.cpp -o userid
