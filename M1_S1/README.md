@@ -34,8 +34,8 @@ ___
    * use `strace -c` overview of syscalls
 ___
 
-
-## How to Create a New Command in Linux 👾
+<details>
+<summar>## How to Create a New Command in Linux 👾</summar>
   * first make a cpp application and run it using this command:
 ```
 $ g++ main.cpp -o userid
@@ -49,5 +49,5 @@ $ sudo cp userid /usr/bin/
   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/59ffa8a3-3fa0-4a8b-84b5-ed785d30c9d8)
   ___
 
-
+</details>
 
