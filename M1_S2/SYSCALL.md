@@ -30,6 +30,15 @@ graph TD;
     C --> |syscall implementation function| D[Kernel Land]
 
 ```
+conclusion🎆
+ ```mermaid
+graph TD;
+    A[user mode] <--> |syscall| (kernel mode)
+```
+
+
+
+
 
 
 >[!note]
@@ -41,11 +50,6 @@ graph TD;
 
 
 
-conclusion🎆
- ```mermaid
-graph TD;
-    A[user mode] <--> |syscall| B(kernel mode)
-```
 
     
     
