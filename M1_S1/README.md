@@ -1,4 +1,6 @@
 # Session One 1️⃣
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/1b09b80f-5814-4df6-9b07-de033c92e577)
+
 ## Commands Learned 👾
 ```shell
   uname -a
