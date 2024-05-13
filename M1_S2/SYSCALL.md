@@ -1,5 +1,6 @@
 # Session two 2️⃣
 ## System Call Introduction 
+
   ### what is a system call?💡
 
   System call provides the **services** of the linux kernel, in another definition its a **software interrupt**. its also the **interface** provided for us to use a service made available by os.
