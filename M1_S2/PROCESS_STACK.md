@@ -5,7 +5,7 @@ What's a process?
       
 the kernel is responsible for the transition from a program to a process. how ❓
   ```mermaid
-     flowchart LR;
+     graph LR;
 
                          A(program) --kernel--> B(process)                 
    ```
