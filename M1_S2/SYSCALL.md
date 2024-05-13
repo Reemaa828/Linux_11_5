@@ -9,7 +9,7 @@
 
   When a userland request a service from kernel space, meaning that if a program needs to access a specific resource it has to go thru the kernel by syscall first. this service is the system call.
 
-### Example of System Call
+### example of System Call
 ```mermaid
 graph TD;
     A[userland] --> |function call that has same name as syscall| B(glibc)
@@ -17,7 +17,7 @@ graph TD;
     C --> |syscall implementation function| D[Kernel Land]
 
 ```
- ### Steps 🪜
+ ### steps 🪜
 - invoke a function or a service from the kernel by using glibc 
 - save context of userspace 
 - context switch from userspace to kernelspace
@@ -32,7 +32,7 @@ graph TD;
 - restore context of userspace
 
 
-### Conclusion🎆
+### conclusion🎆
  ```mermaid
 graph LR;
     A[user mode] <--> |syscall| B(kernel mode)
