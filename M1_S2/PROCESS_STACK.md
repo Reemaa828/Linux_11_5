@@ -5,10 +5,9 @@ What's a process?
       
 the kernel is responsible for the transition from a program to a process. how ❓
   ```mermaid
-flowchart LR
+     flowchart LR;
 
-                         A(program) --kernel--> B(process)
-                        
+                         A(program) --kernel--> B(process)                 
    ```
 steps of this transition 🪜
 -  program is a binary or an executable which we will want to run using the terminal, kernel loads this program into the memory
