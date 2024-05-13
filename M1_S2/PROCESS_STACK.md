@@ -2,7 +2,7 @@
 
 ## What's a process?
 
-A process is an **active entity**, **a program in main memory** and an **instance** of a program loaded in memory and also a unit of execution of operation system.
+A process is an **active entity**, **a program in the main memory** or an **instance** of a program loaded in memory and also a unit of execution/work of operation system.
       
 the kernel is responsible for the transition from a program to a process. how ❓
 ```mermaid
@@ -15,9 +15,9 @@ flowchart LR;
 -  kernel gives the process
     -  ID
     -  Priority
-    -   Time of execution
+    -  Time of execution
       
-## What kind of operation that can be done to **manipulate process** in userland?
+## What kind of operation that can be done to **manipulate a process** in userland?
 1. run this process or create it(creation is done by the kernel) 
 2. terminate the process
 3. change priority
