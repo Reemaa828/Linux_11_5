@@ -10,7 +10,6 @@ flowchart LR
                          A(program) --kernel--> B(process)
                         
    ```
-
 steps of this transition 🪜
 -  program is a binary or an executable which we will want to run using the terminal, kernel loads this program into the memory
 -  then from memory to virtual memory
