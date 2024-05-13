@@ -1,5 +1,5 @@
 # Session two 2️⃣
-## System Call Introduction
+## System Call Introduction 
   ### what is a system call?💡
 
   System call provides the **services** of the linux kernel, in another definition its a **software interrupt**. its also the **interface** provided for us to use a service made available by os.
@@ -16,7 +16,7 @@ graph TD;
     C --> |syscall implementation function| D[Kernel Land]
 
 ```
- ### Steps
+ ### Steps 🪜
 - invoke a function or a service from the kernel by using glibc 
 - save context of userspace 
 - context switch from userspace to kernelspace
@@ -48,6 +48,7 @@ graph LR;
 >* glibc can be customized to another c standard library like musl
 >* no file interactions the syscall interacts directly with the kernel
 >* we can do **monitoring** by using `strace` command and overview using `strace -c` where we can see the failure of any syscalls
+>* good source [watch this](https://www.youtube.com/watch?v=lhToWeuWWfw)
 
 
 
