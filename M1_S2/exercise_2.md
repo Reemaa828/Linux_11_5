@@ -17,6 +17,6 @@
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/73ca9697-5dc4-46ae-81af-154658725aca)
 
 
-
+good source [strace options](https://www.howtoforge.com/linux-strace-command/) 
 
 
