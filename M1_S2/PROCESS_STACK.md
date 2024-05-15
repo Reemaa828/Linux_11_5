@@ -35,7 +35,7 @@ flowchart LR;
 - use `strace` for monitoring processes
 
 ## What's files of interaction?
-    `/proc/`     
+    `/proc/`   
     
 ### `top` is like windows **task manger**
       clock   hoursinsystem   numberofusers   loadin1min5min15min
