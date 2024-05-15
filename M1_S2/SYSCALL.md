@@ -21,7 +21,7 @@ graph TD;
 - invoke a function or a service from the kernel by using glibc 
 - save context of userspace 
 - context switch from userspace to kernelspace
-- search for syscall in [syscall table](https://filippo.io/linux-syscall-table/)
+- search for syscall that maps to function in kernel in [syscall table](https://filippo.io/linux-syscall-table/)
 - call function in the kernel
 - do operation
 - return result
