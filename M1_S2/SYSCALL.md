@@ -46,7 +46,7 @@ graph LR;
 >[!note]
 >* glibc is a wrapper library that has *wrapper functions*, one function of the glibc has many syscalls <sub> if i want to do the direct way to the kernel i have to use all these syscalls. examples of using a glibc and all the syscalls that happen in one of glibc function </sub>
 >![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f9592e0c-c233-400c-882a-6ee400ecdef2)
->* glibc can be customized to another c standard library like musl
+>* glibc can be customized to any standard library like musl
 >* no file interactions the syscall interacts directly with the kernel
 >* we can do **monitoring** by using `strace` command and overview using `strace -c` where we can see the failure of any syscalls
 >* good source [watch this](https://www.youtube.com/watch?v=lhToWeuWWfw)
