@@ -12,7 +12,7 @@
 ### example of System Call
 ```mermaid
 graph TD;
-    A[userland] --> |function call that has same name as syscall often,not always| B(glibc)
+    A[userland] --> |invoke function in kernel by using wrapper lib| B(glibc)
     B --> |syscall interface| C(syscall)
     C --> |call function in the kernel by using systable| D[Kernel Land]
 
