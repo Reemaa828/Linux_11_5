@@ -6,8 +6,9 @@ Syscall is the **interface** between the application and kernel space, when the 
 
 ## Two ways to invoke a syscall
 
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/dda4ada4-16c2-45f2-9d67-5407f96aec83)
 
-![[Pasted image 20240515171730.png]]
+
 
 Directly invoking a syscall is rarely used but in this case is when the c standard library function does not implement a nice wrapper function for you or *new stack in the kernel is made so you have to make your own functions.*
 
@@ -22,11 +23,13 @@ ___
 4) call function by using systable(table that maps syscall to its function in the kernel)
 5) return result 
 6) restore context
-![[Pasted image 20240515200843.png]]
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/74c464c5-06d5-48e0-87a3-9f1ee6bdf682)
+
 ## Return result
 The syscall return zero if its a success and return a negative error number if it fails, The C library wrapper hides this detail from the caller: when a system call returns a negative value, the wrapper copies the absolute value into the _[errno](https://man7.org/linux/man-pages/man3/errno.3.html)_ variable, and returns -1 as the return value of the wrapper.
 
 ___
 ## Conclusion
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/6a46b143-7447-43ff-b5ab-032b40d47d81)
 
-![[Pasted image 20240515214141.png]]
+
