@@ -14,7 +14,7 @@
 graph TD;
     A[userland] --> |function call that has same name as syscall often,not always| B(glibc)
     B --> |syscall interface| C(syscall)
-    C --> |syscall implementation function| D[Kernel Land]
+    C --> |call function in the kernel by using systable| D[Kernel Land]
 
 ```
  ### steps 🪜
