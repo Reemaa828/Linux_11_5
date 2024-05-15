@@ -17,7 +17,7 @@ flowchart LR;
     -  Priority
     -  Time of execution
       
-## What kind of operation that can be done to **manipulate a process** in userland?
+## What kind of operations can be done to **manipulate a process** in userland?
 1. run this process or create it(creation is done by the kernel) 
 2. terminate the process
 3. change priority
