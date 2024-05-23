@@ -64,10 +64,18 @@ The top program displays a continuously updating (by default, every 3 seconds) d
 #### 1. interrupt a process by using **CTRL+C**
  In a terminal, pressing CTRL-C interrupts a program. ==this means that we  politely asked the program to terminate==. After we pressed CTRL-C, the `xlogo` window closed and the shell prompt returned.
 
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/111a10ab-e9fc-4c2c-8c0a-a5d5f56d16b6
+
+
 #### 2. Putting a Process in the Background 
 we wanted to get the shell prompt back without terminating the `xlogo` program. We’ll do this by placing the program in the background.
 
-![[20240520-0054-10.3701458.mp4]]
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/840d201e-e548-48f7-a285-5e1b293a17b0
+
+
+
 
 **a foreground (with stuff visible on the surface, like the shell prompt) and a background (with hidden stuff below the surface).**
 
@@ -82,25 +90,33 @@ This message is part of a shell feature called ==job control==. With this messag
 
 #### 3.Returning a Process to the Foreground
 A process in the background is immune from keyboard input. To return a process to the foreground, use the `fg` command.
-![[20240520-0112-10.7308270.mp4]]The command `fg` followed by a percent sign and the job number (called a jobspec) does the trick. If we have only one background job, the jobspec is optional.
+
+The command `fg` followed by a percent sign and the job number (called a jobspec) does the trick. If we have only one background job, the jobspec is optional.
 #### 4.Stopping (Pausing) a Process
  Sometimes we’ll want to stop a process without terminating it.
  *We can either restore the program to the foreground, using the `fg` command, or move the program to the background with the `bg` command*
- ![[20240520-0135-57.4667889.mp4]]
+
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/71e6d2ea-7f54-49d5-9421-42bfa6a10808
+
 ### Signals 
 ==**Signals are one of several ways that the operating system communicates with programs**==
 #### 1. `Kill`: The kill command is used to send signals.
 use `kill pid` or `kill %jobspec`
 ##### its default is to terminate the process.
 
-![[20240520-0145-01.7554919.mp4]]
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/33236a1f-b4ad-4ae0-b037-a4f2e3ae0910
+
+
+
 
 use `kill -signal number PID` to send signal to a process.
 
 
 ![Pasted image 20240520050404](https://github.com/Reemaa828/Linux_11_5/assets/112731236/502cee5b-13cf-4b43-823a-ea7e57ba16bf)
 
-![[20240520-0205-15.6030133.mp4]]
+
 we can use `-SIG"signal name"` or `-signal name` or `-no.` and with its PID or %jobspec
 
 
@@ -113,8 +129,6 @@ use `kill -l` to see list of  signals
 
 #### 2. `Killall`: Sending Signals to Multiple Processes with killall.
 
-
-![[20240520-0221-28.1155189.mp4]]
 
 # Conclusion 
 
