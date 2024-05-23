@@ -31,10 +31,15 @@ The TIME field is the amount of CPU time consumed by the process.
 * ***adding options to ps** `ps x`
 tells ps to show  all of our processes regardless of what terminal (if any) they are controlled  
 by. The presence of a ? in the TTY column indicates no controlling terminal.
+
+
 **STAT is short for state and reveals the current status of the process**. 
 ![Pasted image 20240520021706](https://github.com/Reemaa828/Linux_11_5/assets/112731236/7ff59837-f638-4ae1-bd7d-51e5b4353b69)
 
+
 different STAT
+
+
 ![Pasted image 20240520022318](https://github.com/Reemaa828/Linux_11_5/assets/112731236/57de75fd-d068-481c-a08e-9b3cb4bb6802)
 
 
@@ -47,6 +52,8 @@ different STAT
 
 ### 2. Viewing Processes Dynamically with `top`
 The top program displays a continuously updating (by default, every 3 seconds) display of the system processes listed in order of process activity.
+
+
 ![Pasted image 20240520023537](https://github.com/Reemaa828/Linux_11_5/assets/112731236/412f4f38-bf17-4819-9009-ffdf77fda91c)
 
 ![Pasted image 20240520023754](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2c0484c6-d88f-43c3-9f0c-0dd207abd506)
@@ -65,6 +72,7 @@ we wanted to get the shell prompt back without terminating the `xlogo` program. 
 **a foreground (with stuff visible on the surface, like the shell prompt) and a background (with hidden stuff below the surface).**
 
 This message is part of a shell feature called ==job control==. With this message, the shell is telling us that we have started job number 1 ([1]) and that it has PID  4483
+
 ![Pasted image 20240520035849](https://github.com/Reemaa828/Linux_11_5/assets/112731236/0d8e2e0d-a332-4e09-bd65-d7328b042238)
 
 ![Pasted image 20240520040723](https://github.com/Reemaa828/Linux_11_5/assets/112731236/29078e8e-73d4-4bed-96a2-c541d124407c)
@@ -88,20 +96,30 @@ use `kill pid` or `kill %jobspec`
 ![[20240520-0145-01.7554919.mp4]]
 
 use `kill -signal number PID` to send signal to a process.
+
+
 ![Pasted image 20240520050404](https://github.com/Reemaa828/Linux_11_5/assets/112731236/502cee5b-13cf-4b43-823a-ea7e57ba16bf)
 
 ![[20240520-0205-15.6030133.mp4]]
 we can use `-SIG"signal name"` or `-signal name` or `-no.` and with its PID or %jobspec
+
+
 ![Pasted image 20240520051341](https://github.com/Reemaa828/Linux_11_5/assets/112731236/b93b2783-c545-4dee-861c-5f62f38da0e9)
 
 use `kill -l` to see list of  signals
+
+
 ![Pasted image 20240520051543](https://github.com/Reemaa828/Linux_11_5/assets/112731236/7c7c53c6-b1b1-4a07-8e74-519add894df9)
 
 #### 2. `Killall`: Sending Signals to Multiple Processes with killall.
+
+
 ![[20240520-0221-28.1155189.mp4]]
 
 # Conclusion 
-![Uploading processmanagement.png…]()
+
+
+![processmanagement](https://github.com/Reemaa828/Linux_11_5/assets/112731236/75575609-c27f-4caf-ac6e-8a73935efc29)
 
 
 
