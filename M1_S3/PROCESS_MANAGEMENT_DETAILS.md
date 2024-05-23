@@ -91,6 +91,10 @@ This message is part of a shell feature called job control. With this message, t
 #### 3.Returning a Process to the Foreground
 A process in the background is immune from keyboard input. To return a process to the foreground, use the `fg` command.
 
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/8a3c80d1-2114-4401-8685-d4e8120ab9bd
+
+
 The command `fg` followed by a percent sign and the job number (called a jobspec) does the trick. If we have only one background job, the jobspec is optional.
 #### 4.Stopping (Pausing) a Process
  Sometimes we’ll want to stop a process without terminating it.
@@ -117,6 +121,10 @@ use `kill -signal number PID` to send signal to a process.
 ![Pasted image 20240520050404](https://github.com/Reemaa828/Linux_11_5/assets/112731236/502cee5b-13cf-4b43-823a-ea7e57ba16bf)
 
 
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/1e9c5445-947d-4be6-b924-8f9f790d9b83
+
+
+
 we can use `-SIG"signal name"` or `-signal name` or `-no.` and with its PID or %jobspec
 
 
@@ -128,6 +136,10 @@ use `kill -l` to see list of  signals
 ![Pasted image 20240520051543](https://github.com/Reemaa828/Linux_11_5/assets/112731236/7c7c53c6-b1b1-4a07-8e74-519add894df9)
 
 #### 2. `Killall`: Sending Signals to Multiple Processes with killall.
+
+
+https://github.com/Reemaa828/Linux_11_5/assets/112731236/0be2299b-e9ee-4889-ab1a-338af06959a0
+
 
 
 # Conclusion 
