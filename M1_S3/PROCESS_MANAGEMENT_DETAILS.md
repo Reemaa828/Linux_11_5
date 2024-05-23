@@ -16,7 +16,7 @@ it's a program in memory also a process is a way which Linux organizes the diffe
 * use `killall` Kill processes by name.  
 * use `shutdown` Shut down or reboot the system.
 
-**The fact that a program can launch other programs is expressed in the process scheme as a ==parent process== ==producing a child process==**
+**The fact that a program can launch other programs is expressed in the process scheme as a parent process producing a child process**
 
 ## Operations done on processes
 ### 1. viewing processes with `ps`
@@ -62,7 +62,7 @@ The top program displays a continuously updating (by default, every 3 seconds) d
 
 ### 3. Controlling process
 #### 1. interrupt a process by using **CTRL+C**
- In a terminal, pressing CTRL-C interrupts a program. ==this means that we  politely asked the program to terminate==. After we pressed CTRL-C, the `xlogo` window closed and the shell prompt returned.
+ In a terminal, pressing CTRL-C interrupts a program. this means that we  politely asked the program to terminate. After we pressed CTRL-C, the `xlogo` window closed and the shell prompt returned.
 
 
 https://github.com/Reemaa828/Linux_11_5/assets/112731236/111a10ab-e9fc-4c2c-8c0a-a5d5f56d16b6
@@ -79,7 +79,7 @@ https://github.com/Reemaa828/Linux_11_5/assets/112731236/840d201e-e548-48f7-a285
 
 **a foreground (with stuff visible on the surface, like the shell prompt) and a background (with hidden stuff below the surface).**
 
-This message is part of a shell feature called ==job control==. With this message, the shell is telling us that we have started job number 1 ([1]) and that it has PID  4483
+This message is part of a shell feature called job control. With this message, the shell is telling us that we have started job number 1  and that it has PID  4483
 
 ![Pasted image 20240520035849](https://github.com/Reemaa828/Linux_11_5/assets/112731236/0d8e2e0d-a332-4e09-bd65-d7328b042238)
 
