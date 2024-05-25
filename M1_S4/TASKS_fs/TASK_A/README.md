@@ -128,9 +128,27 @@ ping <ip address>
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/5a0fe84f-9637-4975-9645-efbf550bf476)
 
 
+# Exercise 🔟: Package Management
+- Update the package list using the package manager (e.g., `apt update`).
+- Install a package using the package manager (e.g., `apt install`).
+- Remove a package using the package manager (e.g., `apt remove`).
+### Commands used
+```shell
+apt update
+apt install tilix
+apt remove tilix
+```
 
 
-
+## Exercise 1️⃣1️⃣: Text Processing
+In this exercise, we will use `sed` to replace a specific word in a text file, `awk` to extract specific columns from a CSV file, and `grep` to find lines in a file that match a specific pattern.
+### Commands used
+```shell
+sed 's/linux/unix/' file1.txt
+awk '{print $5}' /path/to/file.csv
+grep "rere" file11.txt
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/7599622e-7ff2-49bd-8820-a7565a6934f4)
 
 
 
