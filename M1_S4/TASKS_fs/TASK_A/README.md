@@ -30,6 +30,7 @@ rm new_file.txt
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f134f4df-ff6d-4c8f-ad14-2a7e510506b8)
 
+
 ## Exercise 3️⃣: File Viewing and Editing
 * Create a text file using `echo` or a text editor like `nano`.
 * View the contents of the file using `cat`.
@@ -46,6 +47,7 @@ ls > file.txt
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/51875779-b3e8-4b5f-af45-5453587ee85c)
 
+
 ## Exercise 4️⃣: File Permissions
 * Create a file and set specific permissions using `chmod`.
 * Check the permissions of the file using `ls -l`.
@@ -58,6 +60,7 @@ chmod u-w file.txt
 chown root file.txt
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/458a88ea-3397-418a-8ddb-bd7550d51799)
+
 
 ## Exercise 5️⃣: User and Group Management
 - Create a new user using `useradd`.
@@ -73,4 +76,59 @@ usermod --append --groups rii riri
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/9cadedca-ff5a-4fdc-b920-6846d74e81df)
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/8f99d91f-81e0-4c2f-b6bf-0844f433ac9b)
+
+
+## Exercise 6️⃣: Process Management
+- List all processes using `ps`.
+- List processes in real-time using `top`.
+- Find a specific process using `pgrep`.
+- Terminate a process using `kill`.
+### Commands used
+```shell
+ps
+top
+pgrep top
+kill <process_id>
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c448dc9f-92db-47b3-978d-2da3e289fdf6)
+
+
+## Exercise 7️⃣: File Searching
+- In this exercise, we will use the `find` and `grep` commands to search for specific files and strings within files.
+### Commands used
+```shell
+find /3_dirce -name '*.txt'
+grep "rere" file1.txt
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/88ef5a7c-ae0c-4ed1-b039-7b82b72fcf54)
+
+
+## Exercise 8️⃣: Archiving and Compression
+- In this exercise, we will create a tar archive of a directory, compress it using gzip, and then extract the compressed archive.
+### Commands used
+```shell
+tar cf reema.rar file2.txt
+gzip reema.rar
+tar xvf reema.rar.gz
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/dbcec20e-d58f-415e-9996-326379036406)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
