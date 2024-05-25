@@ -4,7 +4,7 @@
 * Use `cd` to navigate to a specific directory.
 * Use `pwd` to print the current working directory.
 ### Commands used
-```bash
+```shell
 ls
 cd
 pwd
@@ -20,7 +20,7 @@ pwd
 * Rename "file.txt" to "new_file.txt" using `mv`.
 * Delete the "new_file.txt" using `rm`.
 ### Commands used
-```bash
+```shell
 mkdir practise
 touch file.txt
 cp file.txt file_backup.txt
@@ -37,7 +37,7 @@ rm new_file.txt
 * Edit the file using `nano` or another text editor.
 * Redirect the output of a command (e.g., ls) to a file using.
 ### Commands used
-```bash
+```shell
 echo "reem" > file.txt
 cat file.txt
 less file.txt
@@ -52,9 +52,25 @@ ls > file.txt
 * Change the owner and group of the file using `chown`.
 * Verify the changes using `ls -l`.
 ### Commands used
-```bash
+```shell
 ls -l
 chmod u-w file.txt
 chown root file.txt
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/458a88ea-3397-418a-8ddb-bd7550d51799)
+
+## Exercise 5️⃣: User and Group Management
+- Create a new user using `useradd`.
+- Set a password for the new user using `passwd`.
+- Create a new group using `groupadd`.
+- Add the user to the newly created group using `usermod`.
+### Commands used
+```shell
+useradd riri
+passwd riri
+groupadd rii
+usermod --append --groups rii riri
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/9cadedca-ff5a-4fdc-b920-6846d74e81df)
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/8f99d91f-81e0-4c2f-b6bf-0844f433ac9b)
+
