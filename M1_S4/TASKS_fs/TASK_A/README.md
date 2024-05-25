@@ -47,8 +47,14 @@ ls > file.txt
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/51875779-b3e8-4b5f-af45-5453587ee85c)
 
 ## Exercise 4️⃣: File Permissions
-* Create a file and set specific permissions using chmod.
-* Check the permissions of the file using ls -l.
-* Change the owner and group of the file using chown.
-* Verify the changes using ls -l.
-
+* Create a file and set specific permissions using `chmod`.
+* Check the permissions of the file using `ls -l`.
+* Change the owner and group of the file using `chown`.
+* Verify the changes using `ls -l`.
+### Commands used
+```bash
+ls -l
+chmod u-w file.txt
+chown root file.txt
+```
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/458a88ea-3397-418a-8ddb-bd7550d51799)
