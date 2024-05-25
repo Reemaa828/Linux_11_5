@@ -9,7 +9,10 @@
      
 ## Commands used
 ```bash
-
+ sudo mkdir /p1_direct /p2_direct
+ sudo mount -t ext4 /dev/sdb1 /p1_direct
+ sudo mount -t ext3 /dev/sdb2 /p2_direct
+ lsblk
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/19a173f6-3ae8-4f0a-b391-4d3e719249d6)
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f471660d-7053-44ad-8cfc-61445df56e6d)
