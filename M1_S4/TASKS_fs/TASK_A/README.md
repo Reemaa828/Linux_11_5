@@ -113,6 +113,20 @@ tar xvf reema.rar.gz
 ```
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/dbcec20e-d58f-415e-9996-326379036406)
 
+## Exercise 9️⃣: Networking
+- In this exercise, we will perform network-related tasks such as pinging a website or IP address, checking network interfaces, and listing open ports.
+### Commands used
+```shell
+netstat
+ifconfig
+ip
+ping google.com
+ping <ip address>
+```
+
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c1ab1ee5-15db-42d7-b5d1-663ca5ccd840)
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/5a0fe84f-9637-4975-9645-efbf550bf476)
+
 
 
 
