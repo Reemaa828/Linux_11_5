@@ -30,7 +30,27 @@ flowchart TB
     A --> C(local variable)
     A --> D(Special variable)
 ```
-1. local variable
+1. local variable operations:
+   - declare a variable
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/67fdc1f8-e738-4744-afdd-a35887c87666)
+   - assign a varaible
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/4c38656a-b69f-4974-a4b7-7f5f0a6e9195)
+   - access a variable
+   - delete a variable
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/604a12fd-7e6e-4dee-b182-ee5b09d11901)
+
+
+2. Enviroment Variable operations:
+   - declare a variable: two ways
+     ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/dbd2888a-0ff7-4307-a270-64a680e16dd0)
+   - change value
+     ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/6241315e-9f50-4fd8-b5e8-1f9f7e018368)
+   - access a variable
+   - delete a variable
+   - print all variable
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2ed735e9-537e-4a8c-ab8a-8c481b963245)
+
+
 
 ## Ways to run a Bash Script?
 ```mermaid
