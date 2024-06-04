@@ -8,11 +8,11 @@
 5. check conditions
 6. functions
 ___
-### 💥 Shebang
+## 💥 Shebang
 Shebang (#!): A sequence of character followed by the path of interpreter which indicates which interpreter which be used.
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/476fe714-20bc-4e92-9638-a2be4177b2b0)
 ___
-### ➡️ Inputs
+## ➡️ Inputs
 1. Before you run the script 
    - Accessing positional parameters inside the script:
      - use `$0` for script's name
@@ -25,7 +25,7 @@ ___
 
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2671450d-9412-4370-b94c-24909aae46b4)
 ___
-### ⚙️ Types of variables
+## ⚙️ Types of variables
 ```mermaid
 flowchart TB
     A(Shell Variables) --> B(enviroment variable)
@@ -59,11 +59,11 @@ flowchart TB
      ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/771a4c21-7e64-4dfc-bb95-906d9b68251e)
 
 ___
-### 🧮 Arithmetic Operation
+## 🧮 Arithmetic Operation
 you can use `+` , `-` , `/` and `*`.
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/bb04acd6-ce4b-4024-b1f0-e05b02bf3fca)
 ___
-### 🛂 Flow control/check condition
+## 🛂 Flow control/check condition
 a. On Numbers
 you can use `>`,`<`,`>=`,`<=`,`==` and `!=` for comparison and `&&`, `||` and `!` for logical operations.
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/b71fd563-4426-4fcd-b9a2-6d605721bcc5)
@@ -81,7 +81,7 @@ c. On Files/ Directories
 ___
 
 
-### ⬅️ Outputs
+## ⬅️ Outputs
 1. Exit status
 use `exit <status>` to exit the script
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f691ab85-248d-4b88-9bea-2f63df9c660c)
