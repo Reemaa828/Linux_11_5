@@ -59,13 +59,25 @@ flowchart TB
 
 ___
 ### 🧮 Arthimetic Operation
+you can use `+` , `-` , `/` and `*`.
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/bb04acd6-ce4b-4024-b1f0-e05b02bf3fca)
 ___
 ### 🛂 Flow control/check condition
 a. On Numbers
+you can use `>`,`<`,`>=`,`<=`,`==` and `!=` for comparsion and `&&`, `||` and `!` for logical operations.
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/b71fd563-4426-4fcd-b9a2-6d605721bcc5)
 
 b. On Strings
+you can use `=`, `!=`,`-z` for empty strings and `-n` for non-empty strings.
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/6154ed56-b105-45d2-a687-12563b984c82)
 
 c. On Files/Directoriories
+1. check if file/directory exists
+2. check if file exist and not empty
+3. check file/directory owner
+4. check group of file/directory
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/f49d4fb7-038e-45df-b3b0-46d795e74644)
+
 ___
 
 
