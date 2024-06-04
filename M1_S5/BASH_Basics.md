@@ -6,10 +6,11 @@
 4. types of variables
 5. check conditions
 6. functions
+___
 ### 💥 Shebang
 Shebang (#!): A seqeunce of character followed by the path of interpreter which indicates which interpreter which be used.
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/476fe714-20bc-4e92-9638-a2be4177b2b0)
-
+___
 ### ➡️ Inputs
 1. Before you run the script
    - Accessing posiitonal parameters inside the script:
@@ -22,7 +23,7 @@ Shebang (#!): A seqeunce of character followed by the path of interpreter which 
    - use `read <variable_name>` to hold the script and wait for an input
 
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2671450d-9412-4370-b94c-24909aae46b4)
-
+___
 ### ⚙️ Types of variables
 ```mermaid
 flowchart TB
@@ -51,6 +52,28 @@ flowchart TB
    ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2ed735e9-537e-4a8c-ab8a-8c481b963245)
 
 
+3. Special Variables operations:
+   - use `$$` to get process id of current shell
+   - use `$?` to get the status of the last command
+     ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/771a4c21-7e64-4dfc-bb95-906d9b68251e)
+
+___
+### 🧮 Arthimetic Operation
+___
+### 🛂 Flow control/check condition
+a. On Numbers
+
+b. On Strings
+
+c. On Files/Directoriories
+___
+
+
+### ⬅️ Outputs
+1. Exit status
+   
+3. Printf statements
+___   
 
 ## Ways to run a Bash Script?
 ```mermaid
