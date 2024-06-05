@@ -95,7 +95,6 @@ ___
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/951dd5ab-2aee-48b3-ab13-18ab9c2bb2f3)
 
 ___
-<span style="color:red"> done! (if supported).</span>
 
-![HomerBrainGIF](https://github.com/Reemaa828/Linux_11_5/assets/112731236/8a3d71da-e8b8-4b6d-8244-8702b3bc56fd)
+![TheOfficeMichaelScottGIF](https://github.com/Reemaa828/Linux_11_5/assets/112731236/95d48d84-6209-41c2-80cc-1b44e015d466)
 
