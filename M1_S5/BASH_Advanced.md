@@ -15,7 +15,7 @@
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/b0edf170-3858-4ee9-b714-244bead4c95a)
 3. using `:?`
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c4ec501f-ad17-4c64-a92a-8711fabc079b)
-
+___
 ## Advanced String Operations
 1. Substrings
     - Method 1️⃣ : using `cut` command     
@@ -31,6 +31,19 @@
 3. Search Pattern
    
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c2007cf9-cca8-4e45-bbd1-a9e395e70793)
+___
+## Loops ➿
+1. For
+   
+    ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/8b154d53-be1e-4de1-a2bf-1bf3827aefd2)
 
-
+2. While
+   
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/50365a40-a844-4b85-857b-25a09944f5ba)
+   
+3. Until
+   
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/6e2aef91-9a0a-43d7-9a07-36d8fddec89b)
+  
+___
 
