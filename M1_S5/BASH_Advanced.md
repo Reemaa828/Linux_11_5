@@ -30,7 +30,7 @@ ___
 
 3. Search Pattern
    
-![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c2007cf9-cca8-4e45-bbd1-a9e395e70793)
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c2007cf9-cca8-4e45-bbd1-a9e395e70793)
 ___
 ## Loops ➿
 1. For
@@ -55,4 +55,16 @@ ___
 
 ___
 ## Files Processing 🗃️
+1. Read line
 
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/444c63a2-c0b9-4e54-846f-81790fe7500f)
+
+2. Write in a File
+
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/29b1e88a-64bc-4d66-8ceb-6757fddfff7d)
+ 
+3. Extract Info 
+
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/654bb4d9-e7c0-4898-a6df-bca3b7e4bcf7)
+
+___
