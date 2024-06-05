@@ -18,19 +18,21 @@
 
 ## Advanced String Operations
 1. Substrings
-   1. Method 1️⃣: using `cut` command
+   1. Method 1️⃣ : using `cut` command
       
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/a81fa1b3-bd98-4179-9e1d-84261c460534)
    
-   2. Method 2️⃣: using `: <num>1`
+   2. Method 2️⃣ : using `: <num>1`
       
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/d2977752-2832-41bb-8d14-e1bf161b0ff7)
    
-3. Extract Pattern
-   1. Method 1️⃣: using `##*.` to extract from beginning
-   2. Method 2️⃣: using `%.*` to extract from end
+2. Extract Pattern
+   1. Method 1️⃣ : using `##*.` to extract from beginning
+   2. Method 2️⃣ : using `%.*` to extract from end
 ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/958b0c6d-483f-4fce-9f28-f8b4ca1557ca)
 
-   
+3. Search Pattern
+![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/c2007cf9-cca8-4e45-bbd1-a9e395e70793)
+
 
 
