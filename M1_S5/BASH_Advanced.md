@@ -44,6 +44,15 @@ ___
 3. Until
    
    ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/6e2aef91-9a0a-43d7-9a07-36d8fddec89b)
-  
+
+4. Case (not a loop)
+   
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/82a13d72-e384-42fb-a1f0-758747880a23)
+
+5. Select (not a loop)
+   
+   ![image](https://github.com/Reemaa828/Linux_11_5/assets/112731236/4b4e2cfb-5bab-466e-a3c6-2684bfbba221)
+
 ___
+## Files Processing 🗃️
 
