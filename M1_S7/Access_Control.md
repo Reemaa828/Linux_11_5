@@ -1,24 +1,26 @@
 # Getting Started with Access Control Mechanism ℹ
 Linux is a **multi-user operating system**, so it has security to prevent people from accessing each other’s confidential files.
-## Resources and Ownerships :RiKeyFill:
+## Resources and Ownerships 🧑‍🦲
 
 
-![[Pasted image 20240621230323.png]]
+![Pasted image 20240621230323](https://github.com/Reemaa828/Linux_11_5/assets/112731236/2e48965f-5230-4da8-b8fc-985460b18126)
 - USER: owns resources (files in this case) and launch processes.
 - Process: uses files to do the process.
 - resources: have owners; by default, the user that creates the file owns it.
 
-## Types of Access control :BoBxUniversalAccess:
+## Types of Access control 🔐
 
 ## 1. DAC:
 Discretionary access control, the user that owns the file will give permissions to others.
-![[Pasted image 20240622002237.png]]
+![Pasted image 20240622002237](https://github.com/Reemaa828/Linux_11_5/assets/112731236/654faf4e-aeb2-41bc-abba-7f82ca9cb63c)
+
 
 ## 2. MAC:
-Mandatory access control, the boss (Admin) gives users a clearance level and the data a confidential level. users can only access data the same level of clearance or lower. ![[idnzwknl.png]]
+Mandatory access control, the boss (Admin) gives users a clearance level and the data a confidential level. users can only access data the same level of clearance or lower.![idnzwknl](https://github.com/Reemaa828/Linux_11_5/assets/112731236/587edeb6-e836-4344-8622-3a2ed403e612)
 
 
-# Types of Users in Linux :LiUsers:
+
+# Types of Users in Linux :accessibility:
 ## 1. System user: 
 users that are made to run processes in the  background or system services.
 ## 2. Human user: 
@@ -27,7 +29,7 @@ users that that interactively uses Linux via the shell and have a home directory
 has all the privileges and has all the control to do anything on the system with UID=0.
 
 
-# Ways to do file permissions :IbLocked: 
+# Ways to do file permissions ❗ 
 ## 1. Scopes of Permission
 ### - User: 
 The owner of the file.
@@ -51,18 +53,15 @@ it gives **process/executable files** the same user id of its owner and owner's 
 it works on ***directories*** only, it prevents non-root users from deleting files in the directory unless its the owner of the file.
 
 
-# Octal vs letters representation :OcNumber16:
-![[Pasted image 20240622015123.png]]
+# Octal vs letters representation 🔢
+![Pasted image 20240622015123](https://github.com/Reemaa828/Linux_11_5/assets/112731236/01a439db-1569-4f36-9ee3-4c18e8599d6d)
 
 
 
-# Files of interactions <!-- files icon by Free Icons (https://free-icons.github.io/free-icons/) -->
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
-  <path
-    d="M 192 384 Q 178 384 169 375 L 169 375 L 169 375 Q 160 366 160 352 L 160 64 L 160 64 Q 160 50 169 41 Q 178 32 192 32 L 336 32 L 336 32 L 336 112 L 336 112 Q 336 126 345 135 Q 354 144 368 144 L 448 144 L 448 144 Q 448 144 448 144 Q 448 145 448 145 L 448 352 L 448 352 Q 448 366 439 375 Q 430 384 416 384 L 192 384 L 192 384 Z M 368 58 L 422 112 L 368 58 L 422 112 L 368 112 L 368 112 L 368 58 L 368 58 Z M 192 0 Q 165 1 147 19 L 147 19 L 147 19 Q 129 37 128 64 L 128 352 L 128 352 Q 129 379 147 397 Q 165 415 192 416 L 416 416 L 416 416 Q 443 415 461 397 Q 479 379 480 352 L 480 145 L 480 145 Q 480 125 466 111 L 370 14 L 370 14 Q 356 0 336 0 L 192 0 L 192 0 Z M 64 112 Q 63 97 48 96 Q 33 97 32 112 L 32 384 L 32 384 Q 33 438 69 475 Q 106 511 160 512 L 368 512 L 368 512 Q 383 511 384 496 Q 383 481 368 480 L 160 480 L 160 480 Q 119 479 92 452 Q 65 425 64 384 L 64 112 L 64 112 Z"
-  />
-</svg>
-![[Pasted image 20240622012455.png]]
+
+# Files of interactions 🗃️
+![Pasted image 20240622012455](https://github.com/Reemaa828/Linux_11_5/assets/112731236/11815e99-ccb8-4401-859c-00eb307d7c4c)
+
 
 >[!NOTE]
 >- The default in Linux is read access to all files.
