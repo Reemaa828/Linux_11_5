@@ -1,4 +1,4 @@
-<img src="images/logo.svg" align="left" />
+<img src="../../images/logo.svg" align="left" width="70" />
 
 # Linux Networking
 
