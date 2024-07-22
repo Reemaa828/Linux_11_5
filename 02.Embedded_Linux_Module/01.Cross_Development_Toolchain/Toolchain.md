@@ -1,9 +1,11 @@
 # What's a Toolchain? 🪛
-A set of development tools used with source code or binaries generated from source code. It's used in number of operations:
+A set of development tools used with source code or binaries generated from source code.
+It's used in number of operations:
 - compilation
 - preparing libraries
 - reading binaries
 - debugging
+  
 it normally contains these tools:
 1. **compiler**: generate object files from source code.
 2. **linker**: link object files together to build executable.
@@ -23,7 +25,7 @@ We can most of the time assume that the config machine and the build machine are
 4. **Cross-Native Toolchain**: build != host == target (**“cross-native”**)
 5. **Canadian Toolchain**: build != host != target (**“canadian”**)
 # Toolchain Components 
+<img src="https://github.com/user-attachments/assets/9ce7019a-7bd5-483d-a34d-abb7853b8d5f" width="500">
 
-![[Screenshot from 2024-07-22 23-49-14.png]]
 
 ## GCC: GNU Compiler Collection
