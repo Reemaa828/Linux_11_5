@@ -1,17 +1,17 @@
 <img src="../../images/gnu-svgrepo-com.svg" align="left" width="92">
 
-# Few topics related to Toolchains 
-# Table of Contents
-- [[#What's a Toolchain? 🪛|What's a Toolchain? 🪛]]
-  
-- [[#Machines involved 🎰|Machines involved 🎰]]
-- [[#Types of Toolchain|Types of Toolchain]]
-- [[#Toolchain Components|Toolchain Components]]
-	- [[#Toolchain Components#1. GCC: GNU Compiler Collection|1. GCC: GNU Compiler Collection]]
-	- [[#Toolchain Components#Stages of compilation process|Stages of compilation process]]
-	- [[#Toolchain Components#What's an object file|What's an object file]]
-	- [[#Toolchain Components#What's a symbol table|What's a symbol table]]
-	- [[#Toolchain Components#Linking process|Linking process]]
+# Basics of Toolchains 
+# Table of Contents 
+
+- [What's a Toolchain? ](#whats-a-toolchain-)
+- [Machines involved ](#machines-involved-)
+- [Types of Toolchain](#types-of-toolchain)
+- [Toolchain Components](#toolchain-components)
+	- [GCC: GNU Compiler Collection + Commands](#1-gcc-gnu-compiler-collection)
+	- [Stages of compilation process](#stages-of-compilation-process)
+	- [What's an object file](#whats-an-object-file)
+	- [What's a symbol table](#whats-a-symbol-table)
+	- [Linking process + Commads](#linking-process)
 
 
 # What's a Toolchain? 🪛
