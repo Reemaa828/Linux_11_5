@@ -28,4 +28,10 @@ We can most of the time assume that the config machine and the build machine are
 <img src="https://github.com/user-attachments/assets/9ce7019a-7bd5-483d-a34d-abb7853b8d5f" width="500">
 
 
-## GCC: GNU Compiler Collection
+## 1. GCC: GNU Compiler Collection
+The **compiler** is software that converts a program written in a high-level language (Source Language) to a low-level language (Object/Target/Machine Language/0, 1’s).
+![Pasted image 20240723005654](https://github.com/user-attachments/assets/1228320c-e43f-40bb-b88e-b22f53b2a151)
+
+use `g++ <file_name>` to perform the compilation process and get executable
+![Screenshot from 2024-07-23 01-06-45 1](https://github.com/user-attachments/assets/35e105c9-f288-4ad1-9c01-5418592d1eab)
+
