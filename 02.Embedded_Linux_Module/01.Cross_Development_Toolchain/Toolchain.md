@@ -72,7 +72,9 @@ use `g++ <file_name> -I<header_files_path>` so it can look for header files in t
 
 
 use `g++ -Wall <file_name>` to show all warnings 
+
 use `g++ -Werror <file_name>` to make a warning into an error
+
 use `g++ <file_name> @option_file` file for all options you want to use
 
 
