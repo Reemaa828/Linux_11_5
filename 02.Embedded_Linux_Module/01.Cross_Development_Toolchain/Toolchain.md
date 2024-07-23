@@ -2,16 +2,17 @@
 
 # Few topics related to Toolchains 
 # Table of Contents
-- [What's a Toolchain? 🪛](#What's%20a%20Toolchain?%20%F0%9F%AA%9B)
-  
-- [Machines involved 🎰](#Machines%20involved%20%F0%9F%8E%B0)
-- [Types of Toolchain](#Types%20of%20Toolchain)
-- [Toolchain Components](#Toolchain%20Components)
-	- [1. GCC: GNU Compiler Collection](#1.%20GCC:%20GNU%20Compiler%20Collection)
-	- [Stages of compilation process](#Stages%20of%20compilation%20process)
-	- [What's an object file](#What's%20an%20object%20file)
-	- [What's a symbol table](#What's%20a%20symbol%20table)
-	- [Linking process](#Linking%20process)
+- [[#What's a Toolchain? 🪛|What's a Toolchain? 🪛]]
+- [[#Machines involved 🎰|Machines involved 🎰]]
+- [[#Types of Toolchain|Types of Toolchain]]
+- [[#Toolchain Components|Toolchain Components]]
+	- [[#Toolchain Components#1. GCC: GNU Compiler Collection|1. GCC: GNU Compiler Collection]]
+	- [[#Toolchain Components#Stages of compilation process|Stages of compilation process]]
+	- [[#Toolchain Components#What's an object file|What's an object file]]
+	- [[#Toolchain Components#What's a symbol table|What's a symbol table]]
+	- [[#Toolchain Components#Linking process|Linking process]]
+
+
 # What's a Toolchain? 🪛
 A set of development tools used with source code or binaries generated from source code. It's used in number of operations:
 - compilation
