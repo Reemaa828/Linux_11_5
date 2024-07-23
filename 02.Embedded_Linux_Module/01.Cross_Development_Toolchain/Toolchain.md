@@ -15,6 +15,7 @@
 
 
 # What's a Toolchain? 🪛
+
 A set of development tools used with source code or binaries generated from source code. It's used in number of operations:
 - compilation
 - preparing libraries
@@ -77,6 +78,13 @@ use `g++ -Werror <file_name>` to make a warning into an error
 
 use `g++ <file_name> @option_file` file for all options you want to use
 
+## Optimization Options
+- `-O0`: No optimization (default).
+- `-O1`: Basic optimization.
+- `-O2`: Moderate optimization, including almost all supported optimizations that do not involve a space-speed tradeoff.
+- `-O3`: High-level optimization, includes -O2 plus more aggressive optimizations.
+- `-Os`: Optimize for size.
+- `-Og`: for more debugging information.
 
 ## Stages of compilation process
 ![Pasted image 20240723022225](https://github.com/user-attachments/assets/1263aff0-037b-4628-81d1-30004c75bbb7)
