@@ -12,8 +12,9 @@
 	- [What's an object file](#whats-an-object-file)
 	- [What's a symbol table](#whats-a-symbol-table)
 	- [Linking process + Commads](#linking-process)
-
-
+---
+![image](https://github.com/user-attachments/assets/7bbecbf4-aab6-47a2-b039-d8f2aadea7b6)
+---
 # What's a Toolchain? 🪛
 
 A set of development tools used with source code or binaries generated from source code. It's used in number of operations:
