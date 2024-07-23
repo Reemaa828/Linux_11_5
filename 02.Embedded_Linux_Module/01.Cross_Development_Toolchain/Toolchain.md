@@ -13,8 +13,10 @@
 	- [What's a symbol table](#whats-a-symbol-table)
 	- [Linking process + Commads](#linking-process)
 ---
-![image](https://github.com/user-attachments/assets/7bbecbf4-aab6-47a2-b039-d8f2aadea7b6)
+<img src="https://github.com/user-attachments/assets/7bbecbf4-aab6-47a2-b039-d8f2aadea7b6" width="500">
+
 ---
+
 # What's a Toolchain? 🪛
 
 A set of development tools used with source code or binaries generated from source code. It's used in number of operations:
@@ -35,6 +37,9 @@ Most popular toolchain is the **GNU toolchain** which is part of GNU project.
 - **Host machine**: the machine running the toolchain.
 - **Target**: the machine running the program that toolchain generated.
 We can most of the time assume that the config machine and the build machine are the same.
+<img src="https://github.com/user-attachments/assets/a26234ce-3982-4780-a821-b7e284be7a8d" width="500">
+
+
 # Types of Toolchain
 1. **Native Toolchain:** build == host == target (**“native”**)
 3. **Cross-platform Toolchain:** build == host != target (**“cross”**)
