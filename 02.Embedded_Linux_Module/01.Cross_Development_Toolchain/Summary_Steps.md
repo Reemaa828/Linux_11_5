@@ -48,6 +48,8 @@ Use crosstool-NG to build a toolchain for Raspberry Pi 3:
 
 The toolchain comprises various components, including static and dynamic libraries. Understanding these components is crucial for effective cross-compilation.
 
+![image](https://github.com/user-attachments/assets/54f1fa3f-38b3-4291-b0ae-97ce088ec62a)
+
 
 # 4. Cross Compiling Applications
 
