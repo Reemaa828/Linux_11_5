@@ -1,5 +1,5 @@
 
-# Setting Up the Toolchain
+# 1. Setting Up the Toolchain
 
 Before diving into cross-compilation, let's ensure you have the necessary prerequisites. Run the following commands to install essential tools:
 ```bash
@@ -16,7 +16,7 @@ make
 make install
 
 ```
-# Finding and Building a Toolchain
+# 2. Finding and Building a Toolchain
 
 
 ## Finding a Toolchain
@@ -44,15 +44,15 @@ Use crosstool-NG to build a toolchain for Raspberry Pi 3:
 
 
 
-# Understanding the Toolchain
+# 3. Understanding the Toolchain
 
 The toolchain comprises various components, including static and dynamic libraries. Understanding these components is crucial for effective cross-compilation.
 
 
-# Cross Compiling Applications
+# 4. Cross Compiling Applications
 
 Learn to cross-compile applications for Raspberry Pi 3 using the configured toolchain.
-# Best Practices for Workflow Organization
+# 5. Best Practices for Workflow Organization
 
 Explore best practices such as using aliases and modifying your `.bashrc` for efficient PATH management.
 
