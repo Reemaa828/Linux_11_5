@@ -1,4 +1,8 @@
 
+
+<img src="../../images/linux-svgrepo-com.svg" align="left" width="82">
+
+# Kernel Customization
 ![Screenshot from 2024-08-01 06-13-05](https://github.com/user-attachments/assets/4b948b64-3c3d-4dd5-9d78-3de2bd3bc9b2)
 
 # Table of Contents 📰
