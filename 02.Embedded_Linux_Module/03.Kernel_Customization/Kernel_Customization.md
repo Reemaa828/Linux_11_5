@@ -134,7 +134,7 @@ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- bcm2711_defconfig
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- Image modules dtbs
 ```
 
-## without configuring anything in the kernel because it's already customized for our board 😼
+## it's done without configuring anything in the kernel because it's already customized for our board 😼
 
 ![Screenshot from 2024-08-01 10-21-22](https://github.com/user-attachments/assets/37fd74c7-256f-4939-b0dd-38353fa963ae)
 
