@@ -76,10 +76,10 @@ why choose the architecture configuration for the kernel customization❓
 
 When Kbuild customized the kernel source code according to the .config file, it's time to build it to create the **image** that must be compatible with the boot-loader.
 
-use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> <target> 
-use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> ` for vmlinux
-use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> Image` for zimage
-use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> LOADADDR=<ADDRESS> uImage` for uImage
+- use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> <target> `
+- use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> ` for vmlinux
+- use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> Image` for zimage
+- use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> LOADADDR=<ADDRESS> uImage` for uImage
 
 ![Screenshot from 2024-08-01 09-47-28](https://github.com/user-attachments/assets/69c7a788-1da8-417b-86e8-6db36443ea81)
 
