@@ -5,6 +5,7 @@
 
 - [Steps for Kernel Customization 📃](#steps-for-kernel-customization-)
 - [Getting Started 🚀](#getting-started-)
+  
 - [Steps using Main Branch Repository 🏗️](#steps-using-main-branch-repository-)
 	- [1. Downloading Kernel Source code](#1-downloading-kernel-source-code)
 	- [2. Configure Kernel](#2-configure-kernel)
@@ -36,20 +37,28 @@ cd crosstool-ng/
 bin/ct-ng show-config
 ```
 ![Screenshot from 2024-08-01 07-46-03](https://github.com/user-attachments/assets/47ebecf6-78d5-42c3-a9c1-2a5f2a20b489)
+
 go to the repo and to the tags to choose the right version of the source code
+
 ![Screenshot from 2024-08-01 07-49-11](https://github.com/user-attachments/assets/e075ac95-3202-49ef-913e-fa2cd520f0ed)
+
 use `tar xf <compressed source code> --directory <directory__path>` to extract the file.
+
 ![Screenshot from 2024-08-01 07-55-30](https://github.com/user-attachments/assets/53ad1a42-dfbb-4066-b754-6940c7b96ac9)
 
 ## 2. Configure Kernel
+
 ![Pasted image 20240801083014](https://github.com/user-attachments/assets/daa7797b-297e-4ecf-8d22-c738a05fa1c9)
 
 
 - The menuconfig reads the Kconfig (which is the default configuration of every directory in the kernel source). if a directory have Kconfig then this directory can be customized.
+  
 use `make ARCH=<architectutre_target> CROSS_COMPILE=<toolchain_prefix> menuconfig`
+
 ![Screenshot from 2024-08-01 08-39-46](https://github.com/user-attachments/assets/e75d8e57-219c-4a5d-8598-b86b23842730)
 
 ***kconfig file is a hierarchical file based on " key value pair " ,  all of these files in the Kconfig can be configured***
+
 ![Screenshot from 2024-08-01 08-37-53](https://github.com/user-attachments/assets/a0afaea4-2e79-4e39-9f15-c8978eeb6d48)
 
 - after  menuconfig reads the Kconfig of every directory, you can change the configurations according to the specifications of your board or the requirements of your project.
@@ -71,6 +80,7 @@ use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> <target>
 use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> ` for vmlinux
 use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> Image` for zimage
 use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> LOADADDR=<ADDRESS> uImage` for uImage
+
 ![Screenshot from 2024-08-01 09-47-28](https://github.com/user-attachments/assets/69c7a788-1da8-417b-86e8-6db36443ea81)
 
 ### what `<target>` should be used when generating the image ❓
@@ -101,7 +111,7 @@ use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> LOADADDR=<ADDRESS> uIma
 
 
 ____
-# Steps using vendor path🏗️
+# Steps using vendor path 🏗️
 
 It's the straightforward path because of the vendor documentation.
 [vendor steps to cross compiler the kernel and build it](https://www.raspberrypi.com/documentation/computers/linux_kernel.html#cross-compile-the-kernel)
