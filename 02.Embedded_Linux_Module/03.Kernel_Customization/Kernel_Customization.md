@@ -5,7 +5,7 @@
 # Kernel Customization
 ![Screenshot from 2024-08-01 06-13-05](https://github.com/user-attachments/assets/4b948b64-3c3d-4dd5-9d78-3de2bd3bc9b2)
 
-# Table of Contents 📰
+# Table of Contents 
 
 - [Steps for Kernel Customization 📃](#steps-for-kernel-customization-)
 - [Getting Started 🚀](#getting-started-)
