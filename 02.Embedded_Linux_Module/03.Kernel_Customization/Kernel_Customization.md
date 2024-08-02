@@ -18,7 +18,7 @@
 	
 
 # Steps for Kernel Customization 📃
-1. Downloading kernel source code either from repository or from vendor. (uncustomized kernel).
+1. Downloading kernel source code either from the main branch repository or from vendor repository. (uncustomized kernel).
 2. Configure the kernel according to your target specifications using menuconfig. (customized kernel)`
 3. Build Kernel using the cross platform toolchain. (image)
 4. Booting kernel to the target or qemu.
@@ -34,7 +34,7 @@ A --> D(Vendor branch) --> E( https://www.raspberrypi.com/documentation/computer
 # Steps using Main Branch Repository 🏗️
 ##  1. Downloading Kernel Source code  
 
-you should use the same version or older as your toolchain kernel header files version.
+you should use the same version or older than your toolchain kernel header files version.
 ```bash
 #Navigate to your crosstool directory and display the configuration.
 cd crosstool-ng/
@@ -55,7 +55,7 @@ use `tar xf <compressed source code> --directory <directory__path>` to extract t
 ![Pasted image 20240801083014](https://github.com/user-attachments/assets/daa7797b-297e-4ecf-8d22-c738a05fa1c9)
 
 
-- The menuconfig reads the Kconfig (which is the default configuration of every directory in the kernel source). if a directory have Kconfig then this directory can be customized.
+- The menuconfig reads the Kconfig (which is the default configuration of every stack in the kernel). if a directory have Kconfig then this stack can be customized.
   
 use `make ARCH=<architectutre_target> CROSS_COMPILE=<toolchain_prefix> menuconfig`
 
@@ -74,11 +74,11 @@ use `make ARCH=<architectutre_target> CROSS_COMPILE=<toolchain_prefix> menuconfi
 
 >[!NOTE]
 why choose the architecture configuration for the kernel customization❓  
->The kernel repo itself doesn't directly contain board-specific or Soc-specific configurations and specifying the architecture provides a more general and flexible approach to kernel configuration.
+>The kernel repo itself doesn't directly contain board-specific or Soc-specific configurations so specifying the architecture provides a more general and flexible approach to kernel configuration.
 
 ## 3. Build Kernel
 
-When Kbuild customized the kernel source code according to the .config file, it's time to build it to create the **image** that must be compatible with the boot-loader.
+When Kbuild customized the kernel source code according to the .config file, it's time to build it and create the **image** that must be compatible with the boot-loader.
 
 - use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> <target> `
 - use `make ARCH=arm64 CROSS_COMPILE=<prefix_of_toolchain> ` for vmlinux
