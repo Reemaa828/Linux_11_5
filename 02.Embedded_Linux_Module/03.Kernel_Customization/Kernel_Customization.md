@@ -34,7 +34,7 @@ A --> D(Vendor branch) --> E( https://www.raspberrypi.com/documentation/computer
 # Steps using Main Branch Repository 🏗️
 ##  1. Downloading Kernel Source code  
 
-you should use the same version or older than your toolchain kernel header files version.
+you should use the same version or newer than your toolchain kernel header files version.
 ```bash
 #Navigate to your crosstool directory and display the configuration.
 cd crosstool-ng/
