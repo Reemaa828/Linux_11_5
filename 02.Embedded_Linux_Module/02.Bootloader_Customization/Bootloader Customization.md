@@ -8,10 +8,10 @@
 # Table of Contents
 
 - [Explaining Linux General Booting Sequence](#explaining-linux-general-booting-sequence)
-	- [First Stage BL : BIOS (Basics Input/Output System)](#first-stage-bl--bios-basics-inputoutput-system)
-	- [Second Stage BL : SPL (Secondary Program Loader)](#second-stage-bl--spl-secondary-program-loader)
-	- [Third stage BL: U-boot (Unified Bootloader)](#third-stage-bl-u-boot-unified-bootloader)
-- [U-BOOT (What matters the most in embedded linux)](#u-boot-what-matters-the-most-in-embedded-linux)
+	- [First Stage BL](#first-stage-bl--bios-basics-inputoutput-system)
+	- [Second Stage BL](#second-stage-bl--spl-secondary-program-loader)
+	- [Third stage BL](#third-stage-bl-u-boot-unified-bootloader)
+- [U-BOOT](#u-boot-what-matters-the-most-in-embedded-linux)
 	- [Steps for Bootloader Customization 🏗️](#steps-for-bootloader-customization-)
 - [What's a device tree?](#whats-a-device-tree)
 - [Summary 🚀](#summary-)
