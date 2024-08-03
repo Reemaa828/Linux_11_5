@@ -5,6 +5,7 @@
       
  >[!NOTE]
  >This is a simplified version of the booting sequence, it differs depending on the architecture, the hardware and linux distributions.
+___
 # Table of Contents
 
 - [Explaining Linux General Booting Sequence](#explaining-linux-general-booting-sequence)
@@ -17,7 +18,7 @@
 - [Summary 🚀](#summary-)
 - [References](#references)
 
-
+___
 # Explaining Linux General Booting Sequence 
 ![Pasted image 20240803040428](https://github.com/user-attachments/assets/a6405a94-537a-428a-b410-3abb29924ccb)
 
@@ -57,7 +58,7 @@
 3. Build it using cross toolchain.
 4. Flash Bootloader on target or qemu.
 
-## 1. Download source code 
+### 1. Download source code 
 use `git clone https://github.com/u-boot/u-boot`
 
 ![Screenshot from 2024-08-02 19-19-21](https://github.com/user-attachments/assets/556b2726-96fd-4b75-96b2-289963c648df)
