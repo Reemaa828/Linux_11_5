@@ -83,7 +83,7 @@ U-boot.bin is the binary used.
 ![Screenshot from 2024-08-02 19-28-05](https://github.com/user-attachments/assets/19b2531c-3732-484f-94ae-3cfc4cdba27f)
 
 ### 4. Testing using Qemu
-
+[Device Tree of my board](https://github.com/Reemaa828/Linux_11_5/blob/main/02.Embedded_Linux_Module/02.Bootloader_Customization/Device_Tree_Rpi3/rpi3-b.dtb)
 ```bash
 qemu-system-aarch64.exe \
     -M raspi3b \
