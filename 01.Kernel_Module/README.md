@@ -15,6 +15,4 @@
 > * **Bash Basics:** Learn bash scripting and the syntax of language.
 > *  **Access Control:** Learn about permissions and ownerships...
 
-This repository is a collection of notes and resources related to kernel-level concepts. 
-
 # Happy Learning 😼
