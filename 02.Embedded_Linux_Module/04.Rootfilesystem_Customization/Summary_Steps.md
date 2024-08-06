@@ -1,6 +1,3 @@
-
-# M2-S4
-
 # Building File system and Booting Kernel.
 
 
