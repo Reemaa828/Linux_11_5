@@ -1,4 +1,7 @@
 
+<img src="../../images/noun-file-system-icon-5625068.svg" align="left" width="90">
+
+# Custom Rootfilesystem
 # Table of Contents
 
 - [Result from booting without a Rootfilesystem](#result-from-booting-without-a-rootfilesystem)
