@@ -16,7 +16,7 @@
 - [What is a `busybox`?](#what-is-a-busybox)
 
 
-
+___
 # Result from booting without a Rootfilesystem
 
 
@@ -66,7 +66,7 @@ you will find that all utilities are a soft links to executable busybox. now you
 ![Screenshot from 2024-08-06 14-02-23.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/5efa6d56ce153e58c230a22c313795cc/raw/Screenshot%20from%202024-08-06%2014-02-23.png)
 
 
-
+____
 
 # Adding libraries that will be needed in the target
 without libraries the application cannot run correctly or compile correctly
@@ -78,7 +78,7 @@ use ` aarch64-rpi3-linux-gnu-readelf --all /home/reema/rootffs/application/a.out
 go to sysroot and use `rsync -avh <source> <destination>` to add missing files and libraries 
 ![Screenshot from 2024-08-06 14-29-02.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/d7d186c17796fffd85299a88363195fe/raw/Screenshot%20from%202024-08-06%2014-29-02.png)
 ![Screenshot from 2024-08-06 14-38-02.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/7739ef6290f0dc499346091ddb6575a1/raw/Screenshot%20from%202024-08-06%2014-38-02.png)
-
+____
 # Archive the rootfilesystem created and compress it.
 ![Screenshot from 2024-08-06 14-43-34.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/8839fca43f45acda87ce7b102aa6c979/raw/Screenshot%20from%202024-08-06%2014-43-34.png)
 
@@ -104,7 +104,7 @@ use `find . -print0 | cpio --null -ov --format=newc` to create an archive
 > `--format=newc`: This specifies the format of the archive to be created, which is the newc format.
 
 ![Screenshot from 2024-08-06 14-57-20.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/d2170ef0aa5abb015c1f765479b3633d/raw/Screenshot%20from%202024-08-06%2014-57-20.png)
-
+____
 # Testing on qemu
 ```bash
 qemu-system-aarch64 -M raspi3b -cpu cortex-a53 -m 1G -kernel Image -append " console="ttyAMA0" rdinit="/bin/sh" -initrd /home/reema/roottfs -nographic 
@@ -120,3 +120,5 @@ qemu-system-aarch64 -M raspi3b -cpu cortex-a53 -m 1G -kernel Image -append " con
 
     - The implementation of utilities removes the uncommon, rarely used command options. Everything fits under 1 MB and this minimal image is the reason why it has gained popularity among **embedded system** and IoT domain.
 - it even contains an init command which can be launched as PID 1.
+
+  # DONE 🎇🧨
