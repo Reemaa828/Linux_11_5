@@ -17,7 +17,7 @@
 
 
 ___
-# Result from booting without a Rootfilesystem
+# Result from booting without a Rootfilesystem 🚨🚨🚨🚨🚨
 
 
 ![Screenshot from 2024-08-06 10-42-37.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/6a6b1ce50325cc444d2c852cea0b94e6/raw/Screenshot%20from%202024-08-06%2010-42-37.png)
