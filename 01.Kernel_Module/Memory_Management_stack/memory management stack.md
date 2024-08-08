@@ -9,6 +9,7 @@
     ***Shared by all processes:*** There's only one instance of the kernel in a system, and all processes share this address space.
 - Virtual Addresses in this virtual address space are mapped to physical addresses by the memory management unit (**MMU**), it has a "page table" to manage this mapping.
 >The split between the two is set by a kernel configuration parameter named PAGE_OFFSET.
+
 ![Screenshot from 2024-08-08 18-22-52.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/d0be3ac0f9cfe3642eb2ca378740534d/raw/Screenshot%20from%202024-08-08%2018-22-52.png&w=190&h=280)
 
 
@@ -23,6 +24,7 @@ two cases
 2. **Mapped to a Physical Address**
 
 ![Screenshot from 2024-08-08 19-18-42.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/1c1fb61c401c90449c55ef69441af67e/raw/Screenshot%20from%202024-08-08%2019-18-42.png)
+
 # Advantages of Virtual Memory
 - Allowing users to operate multiple applications at the same time or applications that are larger than the main memory
 - Improving security by isolating and segmenting where the computer stores information
@@ -36,12 +38,18 @@ two cases
 3. kernel data structures allocated by stab allocator.
 4. mapping for device drivers .
 you can see the memory taken up by the kernel code and data by using `size` command
+
 ![Screenshot from 2024-08-08 21-18-22.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/cc0b2729b78892d01404eca6665ad9c6/raw/Screenshot%20from%202024-08-08%2021-18-22.png)
+
 You can get more information about memory usage by reading `/proc/meminfo`
+
 ![Screenshot from 2024-08-08 21-23-04.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/673415ba2ddac3d778145adec148b644/raw/Screenshot%20from%202024-08-08%2021-23-04.png)
+
 # MMU view 
 use `cat /proc/<PID>/maps`
+
 ![Screenshot from 2024-08-08 21-36-26.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/7a0c02bf1b9457bd9b2d961cc5e1ef18/raw/Screenshot%20from%202024-08-08%2021-36-26.png)
+
 The first three columns show the start and end virtual addresses and the permissions
 for each mapping. The permissions are shown here:
 • r = read
