@@ -1,7 +1,8 @@
 
+<img src="../../01.Kernel_Module/7.Network_Stack/images/chip.svg" align="left" />
 
 # Emulating SD Card
-![Screenshot from 2024-08-10 20-30-16.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/e200a9fdd146246ef45677479fdd9334/raw/Screenshot%20from%202024-08-10%2020-30-16.png)
+![Screenshot from 2024-08-10 20-30-16.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/e200a9fdd146246ef45677479fdd9334/raw/Screenshot%20from%202024-08-10%2020-30-16.png&w=700&h=100)
 # Table of Contents
 
 - [What does it mean to have virtual SD card?](#what-does-it-mean-to-have-virtual-sd-card)
