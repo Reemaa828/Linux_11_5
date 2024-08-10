@@ -2,7 +2,7 @@
 <img src="../../01.Kernel_Module/7.Network_Stack/images/chip.svg" align="left" />
 
 # Emulating SD Card
-![Screenshot from 2024-08-10 20-30-16.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/e200a9fdd146246ef45677479fdd9334/raw/Screenshot%20from%202024-08-10%2020-30-16.png&w=700&h=100)
+
 # Table of Contents
 
 - [What does it mean to have virtual SD card?](#what-does-it-mean-to-have-virtual-sd-card)
@@ -100,6 +100,7 @@ There're three types:
 
 
 # Steps for emulating a virtual SD card
+![Screenshot from 2024-08-10 20-30-16.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/e200a9fdd146246ef45677479fdd9334/raw/Screenshot%20from%202024-08-10%2020-30-16.png&w=700&h=100)
 1. `dd if=/dev/zero of=sd.img bs=1M count=1024` making a 1G file by writing 1 mega bytes of zeros 1024 times.
    
 ![Screenshot from 2024-08-10 16-28-10.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/fa83ada5a12e6233aa2520d6cfc3fcdf/raw/Screenshot%20from%202024-08-10%2016-28-10.png)
