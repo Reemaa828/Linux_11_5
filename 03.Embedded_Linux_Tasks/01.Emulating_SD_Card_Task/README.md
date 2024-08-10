@@ -37,7 +37,7 @@ There're three types:
 `dd if=/dev/zero of=./loop bs=1M count=512`
 ![Screenshot from 2024-08-10 17-21-00.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/a38f65d1065150b082954c58d2168b15/raw/Screenshot%20from%202024-08-10%2017-21-00.png)
 #### 2. use `losetup -f` to show unused loop devices
-![Screenshot from 2024-08-10 17-30-07.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/f6097fbc98d1ec7aa2e1be2b0380ea64/raw/Screenshot%20from%202024-08-10%2017-30-07.png)
+![Screenshot from 2024-08-10 17-30-07.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/f6097fbc98d1ec7aa2e1be2b0380ea64/raw/Screenshot%20from%202024-08-10%2017-30-07.png&w=800&h=500)
 
 #### 3. Creating partitions on loop devices using `cfdisk` or `fdisk`
 `cfdisk <file_that_will_be_attached_to_loop_device>`
