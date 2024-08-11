@@ -1,4 +1,4 @@
-# Boot via virtual SD card
+# Booting via virtual SD card
 # Table of Contents
 
 - [Build tool-chain suitable for your machine](#build-tool-chain-suitable-for-your-machine)
