@@ -1,5 +1,4 @@
-
-
+# Booting & Building kernel via TFTP & Virtual SD
 # Building kernel for Vexpress-a9 
 ```bash
 cd linux/
@@ -37,7 +36,7 @@ install the modules to root filesystem of your target `make -j 8 ARCH=arm CROSS_
 ## Steps 
 ### 1. copy these file to boot partition of virtual sd card
 `zimage` & `device tree` to virtual sd card
-![Screenshot from 2024-08-13 16-37-00.png](https://itg.singhinder.com/?url=https://gist.githubusercontent.com/Reemaa828/153b40ffd89f8ea82b5c4e33109c1e61/raw/Screenshot%20from%202024-08-13%2016-37-00.png)
+![Screenshot from 2024-08-13 16-37-00.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/153b40ffd89f8ea82b5c4e33109c1e61/raw/Screenshot%20from%202024-08-13%2016-37-00.png)
 
 ### 2. Test on qemu
 ```bash
@@ -61,3 +60,20 @@ bootz 0x60000000 - 0x65000000
 ## Steps
 ### 1. copy zImage and device tree to /srv/tftp
 
+![Screenshot from 2024-08-14 00-05-35.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/845eafbc68b8b5611acf890ba4a19da0/raw/Screenshot%20from%202024-08-14%2000-05-35.png)
+
+### 2. test on qemu
+```bash
+qemu-system-arm -M vexpress-a9 -m 128M -kernel ./u-boot/u-boot -nographic -sd ./loop.img 
+
+setenv bootargs console=ttyAMA0
+saveenv
+setenv serverip <host_ip>
+setenv ipaddr <target_ip>
+savenv
+tftp <load_address_kernel> zImage
+tftp <load_address_device_tree> <device_tree.dtb>
+bootz 0x60000000 - 0x65000000
+```
+![Screenshot from 2024-08-14 00-08-41.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/924cfca97f9f2209d2c9ad4e44ee7d21/raw/Screenshot%20from%202024-08-14%2000-08-41.png)
+![Screenshot from 2024-08-14 00-09-02.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/436f415f6650da05d9d514ef437907fe/raw/Screenshot%20from%202024-08-14%2000-09-02.png)
