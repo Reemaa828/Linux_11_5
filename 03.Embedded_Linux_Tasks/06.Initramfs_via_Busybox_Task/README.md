@@ -120,7 +120,7 @@ uboot_Test=> bootz 0x60000000 0x66000000 0x64000000
 without the init process just a shell thus the ps is not working
 ![Screenshot from 2024-08-15 01-39-52.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/0b6fe83ada032d122e2202c4bc677f1e/raw/Screenshot%20from%202024-08-15%2001-39-52.png)
 
-## Third method
+## Third method # disk image
 ```bash
 qemu-system-arm -M vexpress-a9 -m 128M -nographic -kernel ./u-boot/u-boot -sd ./loop.img 
 uboot_Test=> setenv bootargs 'console=ttyAMA0 root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait init=/sbin/init' 
@@ -134,7 +134,11 @@ uboot_Test=> bootz 0x60000000 - 0x67000000
 ```
 ![Screenshot from 2024-08-15 03-23-24.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/6adaeb18ced66f6a2588fb1b0776da88/raw/Screenshot%20from%202024-08-15%2003-23-24.png)
 
-ps is working cause of init process
+![Screenshot from 2024-08-15 16-24-29](https://github.com/user-attachments/assets/436f8ae9-4640-42c1-b96f-b6c207924381)
+![Screenshot from 2024-08-15 16-24-37](https://github.com/user-attachments/assets/1dd6ece6-bd87-49ea-939b-157d9589d54c)
+
+
+ps is working cause mounting proc
 
 ![Screenshot from 2024-08-15 03-23-42.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/d82f628815f7350060d632c481b2a1e3/raw/Screenshot%20from%202024-08-15%2003-23-42.png)
 
