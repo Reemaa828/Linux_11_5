@@ -170,7 +170,12 @@ uboot_Test=> bootz 0x60000000 - 0x67000000
 ```
 ` qemu-system-arm -m 256M -nographic -M vexpress-a9 -kernel ./zImage -append "console=ttyAMA0 rdinit=/sbin/init" -dtb ./boot `
 
-
+> Warning: unable to open an initial console. FIX IT BY MAKING A DEVICE NODE IN THE RAMFS AND REBUILD
 ![image.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/6e95811b9dce4e13f8bfd3e6a4a3f088/raw/image.png)
+
+![Screenshot from 2024-08-15 05-15-01](https://github.com/user-attachments/assets/ba2b5b31-89dc-4bdf-a9f4-292ae9257e88)
+
+
+
 
 
