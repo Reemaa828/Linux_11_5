@@ -1,4 +1,4 @@
-# Initramfs via Busybox
+# Initramfs and Disk Image via statically linked Busybox
 
 >[!TIP]
 >-  make sure the kernel version and the kernel header files are compatible and lower than 6.8
