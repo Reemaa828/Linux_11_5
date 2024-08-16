@@ -1,5 +1,15 @@
 # Initramfs and Disk Image via statically linked Busybox
+# Table of Contents
 
+- [Ways for transferring the rootfs](#ways-for-transferring-the-rootfs)
+- [Creating a initramfs](#creating-a-initramfs)
+- [Boot and Test on QEMU standalone initramfs & disk image](#boot-and-test-on-qemu-standalone-initramfs--disk-image)
+	- [first method](#first-method)
+	- [Second method](#second-method)
+	- [Third method disk image](#third-method-disk-image)
+- [Building a ramdisk cpio into the kernel image](#building-a-ramdisk-cpio-into-the-kernel-image)
+	- [Test on QEMU](#test-on-qemu)
+_____
 >[!TIP]
 >-  make sure the kernel version and the kernel header files are compatible and lower than 6.8
 >  - [error encountered by busybox for kernel versions](http://lists.busybox.net/pipermail/busybox-cvs/2024-January/041752.html)
