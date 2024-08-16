@@ -4,6 +4,7 @@
 >-  make sure the kernel version and the kernel header files are compatible and lower than 6.8
 >  - [error encountered by busybox for kernel versions](http://lists.busybox.net/pipermail/busybox-cvs/2024-January/041752.html)
 >  ![Screenshot from 2024-08-14 18-00-56.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/be21cc2e228465e01ce2b0fc58b34a5d/raw/Screenshot%20from%202024-08-14%2018-00-56.png)
+
 > ![Screenshot from 2024-08-14 18-01-30.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/25dd9a6323991957bd768f89a0c5e852/raw/Screenshot%20from%202024-08-14%2018-01-30.png)
 
 
@@ -135,6 +136,7 @@ uboot_Test=> bootz 0x60000000 - 0x67000000
 ![Screenshot from 2024-08-15 03-23-24.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/6adaeb18ced66f6a2588fb1b0776da88/raw/Screenshot%20from%202024-08-15%2003-23-24.png)
 
 ![Screenshot from 2024-08-15 16-24-29](https://github.com/user-attachments/assets/436f8ae9-4640-42c1-b96f-b6c207924381)
+
 ![Screenshot from 2024-08-15 16-24-37](https://github.com/user-attachments/assets/1dd6ece6-bd87-49ea-939b-157d9589d54c)
 
 
@@ -160,6 +162,7 @@ old kernel image
 new kernel image
 
 ![Screenshot from 2024-08-15 01-42-32.png](https://itg.singhinder.com?url=https://gist.githubusercontent.com/Reemaa828/aa90ece3f4d31b431b7363cf070af9d1/raw/Screenshot%20from%202024-08-15%2001-42-32.png)
+
 
 ## Test on QEMU
 ```bash
