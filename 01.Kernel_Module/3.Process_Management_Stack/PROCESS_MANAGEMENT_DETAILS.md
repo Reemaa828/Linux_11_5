@@ -2,7 +2,7 @@
 
 ## What's a process?
 it's a program in memory also a process is a way which Linux organizes the different program waiting for its turn at the CPU.
-## How does the kernel transition the program to a process?
+## How does the kernel transition from a program to a process?
 * loads program to RAM
 * reserve a Virtual Memory
 * kernel provides process characteristics 1) id 2) priority 3) time from CPU
